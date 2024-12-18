@@ -98,6 +98,7 @@ extension UserViewController: UITableViewDataSource {
                 }
             }
         }
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
 }

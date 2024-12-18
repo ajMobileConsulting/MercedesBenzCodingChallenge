@@ -43,20 +43,20 @@ This iOS application allows users to:
     - Code Style: * Clean, maintainable code with SOLID principles and coding best practices *
     
 ## Project Structure
-MercedesBenzCodingChallenge/
-│
-├── AppDelegate/                       // AppDelegate, SceneDelegate, and entry 
-│                                         point
-├── ImageStorage/                      // Image service to download, storage & 
-│                                         cache images.
-├── Model/                             // Data models for GitHub users & profile
-├── Network/                           // API client and network layer
-├── Repository/                        // API client specific to user & profile
-├── Resources/                         // Images, assets, and constants
-├── Views/                             // UIKit views for UI components
-├── Views/Controllers/                 // ViewControllers for screens
-├── ViewModels/                        // Business logic and network handling
-└── MercedesBenzCodingChallengeTests/  // Unit tests for ViewModels and Networking
+
+#### MercedesBenzCodingChallenge
+| Folder Names  | Purpose|
+| ------------- |:-------------:|
+| AppDelegate   | AppDelegate, SceneDelegate, and entry point |
+| ImageStorage  | Image service to download, storage & cache images. |
+| Model         | Data models for GitHub users & profile |
+| Network       |API client and network layer|
+| Repository                       | API client specific to user & profile|
+| Resources                        | Images, assets, and constants|
+| Views                            |UIKit views for UI components|
+| Views/Controllers                | ViewControllers for screens|
+| ViewModels                       | Business logic and network handling|
+| MercedesBenzCodingChallengeTests | Unit tests for ViewModels and Networking|
 
 ## Key Components
     1. Networking Layer
